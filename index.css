@@ -1,0 +1,212 @@
+/* NAVBAR SECTION ----------------------------*/
+
+#navbar {
+	background-color: #001a00;
+}
+
+
+/* LANDING SECTION ----------------------------*/
+
+#hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/landing/landing_banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	height: 100vh;
+
+	color: white;
+}
+
+#hero .header {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#apply-button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#apply-button:hover {
+    background-color: #ff5722;
+    transform: scale(1.05);
+}
+
+/* CAROUSEL SECTION ----------------------------*/
+
+#carouselExampleIndicators {
+  max-width: 500px;
+  margin: auto;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 300px; 
+}
+
+#carouselExampleIndicators .carousel-inner img {
+  width: 100%;    
+  height: 100%;     
+  object-fit: cover; 
+}
+
+#promotion {
+    font-family: 'Momo Trust Display'
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+#description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    max-width: 500px;
+}
+
+/* CARDS SECTION ----------------------------*/
+
+#mathematics {
+    background-color: #001a00;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#mathematics h1 {
+    font-family: 'Momo Trust Display';
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#mathematics .card {
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#mathematics .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+#mathematics .card-img-top {
+    border-radius: 15px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#mathematics .card-title {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffcc80;
+}
+
+#mathematics .card-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: #f1f1f1;
+    line-height: 1.5;
+}
+
+#mathematics .card-body {
+    padding: 20px;
+}
+
+
+#chemistry {
+    background-color: #001a00;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+#chemistry h1 {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
+
+#chemistry .card {
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#chemistry .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+#chemistry .card-img-top {
+    border-radius: 15px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#chemistry .card-title {
+    font-family: 'Momo Trust Display', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffcc80;
+}
+
+#chemistry .card-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: #f1f1f1;
+    line-height: 1.5;
+}
+
+/* FOOTER SECTION ------------------------------*/
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer span {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 600;
+}
