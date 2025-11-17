@@ -264,19 +264,22 @@
     color: #001a00;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
+#view-button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.card-body {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.card-body .btn {
-    margin-top: auto; 
+#view-button:hover {
+    background-color: #ff5722;
+    transform: scale(1.05);
 }
 
 /* FOOTER SECTION ------------------------------*/
